@@ -151,6 +151,33 @@ header .container {
     min-height: 198px;
     background-color: var(--salad-color);
     flex: 1 1 40%;
+    position: relative;
+}
+.flex-section .block:after {
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 62.11px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color)
+}
+.flex-section .block:nth-child(1):after {
+    content: '1';
+}
+.flex-section .block:nth-child(2):after {
+    content: '2';
+}
+.flex-section .block:nth-child(3):after {
+    content: '3';
+}
+.flex-section .block:nth-child(4):after {
+    content: '4';
+}
+.flex-section .block:nth-child(5):after {
+    content: '5';
 }
 .flex-section .block_first {
     flex: 0 1 390px;
